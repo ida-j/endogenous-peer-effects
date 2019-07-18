@@ -1,0 +1,50 @@
+\begin{table}\caption{\footnotesize {\bf Polynomial Sieve}: Parameter values across 500 Monte Carlo replications with $h(a)=\exp (3 a_i)$ and $K_N=4$} 
+\begin{threeparttable} 
+\centering \footnotesize
+\scalebox{.9}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline 
+\cellcolor{yellow}$N$&\multicolumn{5}{|c|}{\cellcolor{yellow}$500$}&\multicolumn{5}{|c|}{\cellcolor{yellow}$1000$}&\\\hline 
+CF&$(0)$&$(1)$&$(2)$&$(3)$&$(4)$& $(0)$ &$(1)$&$(2)$&$(3)$&$(4)$&\\\hline 
+\multirow{4}{*}{$\beta_1=0$}& -0.798 & -0.017 &0.013 &0.008 &-0.017 &-0.913& -0.067 &-0.018 &-0.033& -0.067 &\textit{mean bias} \\ 
+&(1.982 )&(0.334 )&(1.147 )&(1.160 )&(0.334 )&(3.538 )&(1.304 )&(1.620 )&(1.638 )&(1.304 )&\textit{std}\\ 
+& 0.940 & 0.066 &0.054 &0.044 &0.066 &0.968& 0.028 &0.054 &0.050& 0.028 &\textit{size} \\ \midrule
+\multirow{4}{*}{$\beta_2=1$}& 0.053 & 0.001 &-0.000 &-0.000 &0.001 &0.050& 0.001 &-0.000 &-0.000& 0.001 &\textit{mean bias} \\ 
+&(0.023 )&(0.012 )&(0.016 )&(0.017 )&(0.012 )&(0.020 )&(0.011 )&(0.012 )&(0.013 )&(0.011 )&\textit{std}\\ 
+& 0.986 & 0.048 &0.044 &0.034 &0.048 &0.998& 0.050 &0.042& 0.042 &0.050 &\textit{size} \\\midrule 
+\multirow{4}{*}{$\beta_3=1$}& 0.779 & 0.012 &-0.029& -0.024 &0.012 &0.872 &0.071 &0.009 &0.023& 0.071 &\textit{mean bias} \\ 
+&(2.060 )&(0.401 )&(1.212 )&(1.227 )&(0.401 )&(3.680 )&(1.365 )&(1.682 )&(1.700 )&(1.365 )&\textit{std}\\ 
+& 0.638 & 0.060 &0.050 &0.058 &0.060 &0.596& 0.022& 0.054 &0.054 &0.022 &\textit{size} \\\midrule 
+&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$-0.268, median bias$=$-0.177 }&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$-0.267, median bias$=$-0.177 }&\\ \hline 
+\cellcolor{yellow}$N$&\multicolumn{5}{|c|}{\cellcolor{yellow}$500$}&\multicolumn{5}{|c|}{\cellcolor{yellow}$1000$}&\\\hline 
+CF&$(0)$&$(1)$&$(2)$&$(3)$&$(4)$& $(0)$ &$(1)$&$(2)$&$(3)$&$(4)$&\\\hline 
+\multirow{4}{*}{$\beta_1=0.5$}& -0.278 & -0.010 &0.006 &0.003 &-0.010 &-0.339& -0.005 &-0.015 &-0.026& -0.005 &\textit{mean bias} \\ 
+&(1.852 )&(0.292 )&(0.879 )&(0.890 )&(0.292 )&(0.565 )&(0.097 )&(1.253 )&(1.275 )&(0.097 )&\textit{std}\\ 
+& 0.938 & 0.068 &0.056 &0.048 &0.068 &0.968& 0.028 &0.056 &0.054& 0.028 &\textit{size} \\ \midrule 
+\multirow{4}{*}{$\beta_2=1$}& 0.049 & 0.000 &-0.000 &-0.000 &0.000 &0.048& 0.000 &-0.000 &-0.000& 0.000 &\textit{mean bias} \\ 
+&(0.026 )&(0.012 )&(0.016 )&(0.017 )&(0.012 )&(0.008 )&(0.008 )&(0.011 )&(0.013 )&(0.008 )&\textit{std}\\ 
+& 0.986 & 0.050 &0.046 &0.034 &0.050 &1.000& 0.052 &0.044& 0.044 &0.052 &\textit{size} \\\midrule 
+\multirow{4}{*}{$\beta_3=1$}& 0.245 & 0.006 &-0.019& -0.016 &0.006 &0.275 &0.007 &0.008 &0.019& 0.007 &\textit{mean bias} \\ 
+&(1.936 )&(0.346 )&(0.938 )&(0.951 )&(0.346 )&(0.607 )&(0.178 )&(1.303 )&(1.326 )&(0.178 )&\textit{std}\\ 
+& 0.372 & 0.056 &0.056 &0.060 &0.056 &0.254& 0.026& 0.056 &0.054 &0.026 &\textit{size} \\\midrule 
+&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$-0.268, median bias$=$-0.177 }&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$-0.267, median bias$=$-0.177 }&\\ \hline 
+\cellcolor{yellow}$N$&\multicolumn{5}{|c|}{\cellcolor{yellow}$500$}&\multicolumn{5}{|c|}{\cellcolor{yellow}$1000$}&\\\hline 
+CF&$(0)$&$(1)$&$(2)$&$(3)$&$(4)$& $(0)$ &$(1)$&$(2)$&$(3)$&$(4)$&\\\hline 
+\multirow{4}{*}{$\beta_1=0.8$}& -1.156 & 0.073 &0.003 &0.001 &0.073 &-0.094& -0.001 &-0.013 &-0.030& -0.001 &\textit{mean bias} \\ 
+&(24.522 )&(1.139 )&(0.711 )&(0.720 )&(1.139 )&(0.061 )&(0.020 )&(1.020 )&(1.247 )&(0.020 )&\textit{std}\\ 
+& 0.938 & 0.068 &0.058 &0.054 &0.068 &0.968& 0.028 &0.056 &0.056& 0.028 &\textit{size} \\\midrule 
+\multirow{4}{*}{$\beta_2=1$}& 0.063 & -0.001 &-0.000 &-0.000 &-0.001 &0.047& 0.000 &-0.000 &0.000& 0.000 &\textit{mean bias} \\ 
+&(0.375 )&(0.020 )&(0.015 )&(0.016 )&(0.020 )&(0.008 )&(0.008 )&(0.011 )&(0.013 )&(0.008 )&\textit{std}\\ 
+& 0.990 & 0.046 &0.048 &0.032 &0.046 &1.000& 0.052 &0.046& 0.044 &0.052 &\textit{size} \\ \midrule
+\multirow{4}{*}{$\beta_3=1$}& 1.184 & -0.081 &-0.014& -0.012 &-0.081 &0.020 &0.002 &0.008 &0.024& 0.002 &\textit{mean bias} \\ 
+&(26.043 )&(1.196 )&(0.770 )&(0.781 )&(1.196 )&(0.150 )&(0.120 )&(1.066 )&(1.304 )&(0.120 )&\textit{std}\\ 
+& 0.096 & 0.054 &0.058 &0.060 &0.054 &0.062& 0.028& 0.058 &0.052 &0.028 &\textit{size} \\\midrule 
+&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$-0.268, median bias$=$-0.177 }&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$-0.267, median bias$=$-0.177 }&\\ \hline 
+\end{tabular}} 
+\begin{tablenotes}\tiny 
+\item CF - control function. $(0)$ - none, $(1)$ - $\hat{a}_i$,  $(2)$ - $\hat{h}(\hat{a}_i)$, $(3)$ - $\hat{h}(\widehat{deg}_i,x_{2i})$, $(4)$ - $h(a_i)$. 
+\item Average number of links for $N=100$ is $24.1$, for $N=250$ it is $60.2$. 
+\item The bias of $\hat{a}_i$ is calculated as $a_i-\hat{a}_i$ 
+\item $K^*_{100,0.2}=3$, $K^*_{100,0.5}=5$, $K^*_{100,0.8}=4$ 
+\item $K^*_{250,0.2}=8$, $K^*_{250,0.5}=3$, $K^*_{250,0.8}=8$ 
+  \end{tablenotes} 
+\end{threeparttable} 
+\end{table} 

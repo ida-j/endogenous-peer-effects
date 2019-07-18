@@ -1,0 +1,29 @@
+\begin{table}\caption{\footnotesize {\bf Cross-Validationresults}: Parameter values across 1000 Monte Carlo replications} 
+\begin{threeparttable} 
+\centering \footnotesize
+\scalebox{.9}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\toprule 
+&\cellcolor{yellow}$N$&\multicolumn{6}{|c|}{\cellcolor{yellow}$100$}&\multicolumn{6}{|c|}{\cellcolor{yellow}$250$}\\\hline 
+&&\multicolumn{6}{c}{$K_N$}&\multicolumn{6}{c}{$K_N$}\\\hline 
+$h(a_i)$&$\beta_0-\hat{\beta_0}$&$3$&$4$&$5$&$6$&$7$& $8$ &$3$&$4$&$5$&$6$&$7$& $8$\\\hline 
+\multirow{4}{*}{\rotatebox[origin=c]{90}{$\exp(a_i)$}}&mean&1.432 &1.427 &1.482 &1.456 &1.463 &6920.438 &1.271 &1.317 &1.306 &1.307 &1.304 &3355.611 \\ 
+&median&0.617 &0.616 &0.631 &0.630 &0.633 &0.685 &0.569 &0.590 &0.586 &0.587 &0.584 &0.654 \\ 
+&std&2.172 &2.198 &2.363 &2.211 &2.304 &1497520.185 &1.837 &1.909 &1.878 &1.879 &1.883 &952814.695 \\ 
+&iqr&1.680 &1.673 &1.720 &1.718 &1.723 &1.955 &1.531 &1.587 &1.580 &1.581 &1.575 &1.846 \\\midrule 
+\multirow{4}{*}{\rotatebox[origin=c]{90}{$\cos(a_i)$}}&mean&1.840 &1.841 &1.836 &1.786 &1.848 &1813.352 &1.717 &1.661 &1.693 &1.718 &1.708 &712.382 \\ 
+&median&0.854 &0.841 &0.844 &0.828 &0.854 &0.949 &0.798 &0.779 &0.791 &0.805 &0.798 &0.917 \\ 
+&std&2.585 &2.624 &2.629 &2.500 &2.601 &353928.329 &2.400 &2.286 &2.360 &2.377 &2.368 &77220.861 \\ 
+&iqr&2.262 &2.239 &2.237 &2.188 &2.261 &2.637 &2.122 &2.063 &2.085 &2.128 &2.112 &2.518 \\\midrule 
+\multirow{4}{*}{\rotatebox[origin=c]{90}{$\sin(a_i)$}}&mean&1.852 &1.815 &1.876 &1.870 &1.892 &1808.921 &1.731 &1.703 &1.737 &1.749 &1.744 &11909.849 \\ 
+&median&0.857 &0.846 &0.866 &0.856 &0.854 &0.924 &0.816 &0.800 &0.824 &0.822 &0.808 &0.956 \\ 
+&std&2.597 &2.554 &2.703 &2.663 &2.719 &332801.236 &2.378 &2.343 &2.377 &2.427 &2.433 &4025203.389 \\ 
+&iqr&2.263 &2.232 &2.281 &2.270 &2.311 &2.571 &2.145 &2.110 &2.158 &2.157 &2.143 &2.662 \\\bottomrule 
+\end{tabular}} 
+\begin{tablenotes}\tiny 
+\item CF - control function. $(0)$ - none, $(1)$ - $\hat{a}_i$,  $(2)$ - $\hat{h}(\hat{a}_i)$, $(3)$ - $\hat{h}(\widehat{deg}_i,x_{2i})$, $(4)$ - $h(a_i)$. 
+\item Average number of links for $N=100$ is $24.1$, for $N=250$ it is $60.2$. 
+\item The bias of $\hat{a}_i$ is calculated as $a_i-\hat{a}_i$ 
+\item $K^*_{100,0.2}=3$, $K^*_{100,0.5}=5$, $K^*_{100,0.8}=4$ 
+\item $K^*_{250,0.2}=8$, $K^*_{250,0.5}=3$, $K^*_{250,0.8}=8$ 
+  \end{tablenotes} 
+\end{threeparttable} 
+\end{table} 

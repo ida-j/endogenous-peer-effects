@@ -1,0 +1,24 @@
+\begin{table}\caption{\footnotesize {\bf Design A2,  Hermite Polynomial Sieve}: Parameter values across 1000 MC replications with $K_N=4$} 
+\begin{threeparttable} 
+\centering \footnotesize
+\scalebox{1}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}\hline 
+\cellcolor{yellow}$N$&\multicolumn{3}{|c|}{\cellcolor{yellow}$100.000$}&\multicolumn{3}{|c|}{\cellcolor{yellow}$250.000$}&\\\hline 
+CF&$(0)$&$(1)$&$(2)$& $(0)$ &$(1)$&$(2)$&\\\hline 
+\multirow{4}{*}{$\beta_1=0.80$}& -0.001 & -0.000 &-0.000 &-0.002 &0.000 &0.000& \textit{mean bias} \\ 
+&(0.003 )&(0.003 )&(0.002 )&(0.003 )&(0.004 )&(0.002 )&\textit{std}\\ 
+& 0.067 & 0.060 &0.065 &0.191 &0.046 &0.047& \textit{size} \\ \midrule
+\multirow{4}{*}{$\beta_2=5$}& 0.043 & 0.001 &0.001 &0.040 &-0.001 &-0.001&\textit{mean bias} \\ 
+&(0.036 )&(0.040 )&(0.033 )&(0.023 )&(0.023 )&(0.020 )&\textit{std}\\ 
+& 0.094 & 0.061 &0.053 &0.057 &0.053 &0.049&\textit{size} \\\midrule 
+\multirow{4}{*}{$\beta_3=5$}& 0.030 & 0.002 &0.002& 0.061 &-0.001 &-0.002 &\textit{mean bias} \\ 
+&(0.074 )&(0.073 )&(0.066 )&(0.058 )&(0.059 )&(0.050 )&\textit{std}\\ 
+& 0.064 & 0.077 &0.077 &0.054 &0.042 &0.038&\textit{size} \\\hline 
+\end{tabular}} 
+\begin{tablenotes}\tiny 
+\item CF - control function. $(0)$ - none, $(1)$ - $\hat{h}(\widehat{deg}_i,x_{2i})$, $(2)$ - $h(a_i)$. 
+\item $K=4$, $\sigma_\varepsilon=1.0$ 
+\item $h(a)=\sin (\kappa a_i)$ with $\kappa=$3.
+\item Average network statistics: density$=0.020$, min degree$=0.057$, max degree$=9.643$ 
+  \end{tablenotes} 
+\end{threeparttable} 
+\end{table} 

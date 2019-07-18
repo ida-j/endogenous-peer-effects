@@ -1,0 +1,22 @@
+\begin{table}\caption{\footnotesize {\bf Hermite Polynomial Sieve}: Parameter values across 1000 Monte Carlo replications with $h(a)=\cos (3 a_i)$ and $K_N=8$} 
+\begin{threeparttable} 
+\centering \footnotesize
+\scalebox{.9}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline 
+\cellcolor{yellow}$N$&\multicolumn{5}{|c|}{\cellcolor{yellow}$100$}&\multicolumn{5}{|c|}{\cellcolor{yellow}$250$}&\\\hline 
+CF&$(0)$&$(1)$&$(2)$&$(3)$&$(4)$& $(0)$ &$(1)$&$(2)$&$(3)$&$(4)$&\\\hline 
+\multirow{4}{*}{$\beta_1=1$}& -0.002 & 0.001 &-0.000 &-0.000 &0.000 &-0.007& 0.003 &-0.000 &-0.000& -0.000 &\textit{mean bias} \\ 
+&(0.003 )&(0.003 )&(0.003 )&(0.003 )&(0.003 )&(0.003 )&(0.004 )&(0.004 )&(0.004 )&(0.003 )&\textit{std}\\ 
+& 0.134 & 0.064 &0.068 &0.063 &0.061 &0.706& 0.125 &0.060 &0.047& 0.053 &\textit{size} \\ \midrule
+\multirow{4}{*}{$\beta_2=5$}& 0.051 & 0.026 &-0.001 &0.001 &-0.000 &0.063& 0.021 &0.001 &0.001& 0.001 &\textit{mean bias} \\ 
+&(0.035 )&(0.032 )&(0.035 )&(0.042 )&(0.032 )&(0.019 )&(0.021 )&(0.021 )&(0.025 )&(0.020 )&\textit{std}\\ 
+& 0.344 & 0.143 &0.066 &0.062 &0.050 &0.897& 0.164 &0.049& 0.055 &0.050 &\textit{size} \\\midrule 
+\multirow{4}{*}{$\beta_3=5$}& 0.009 & -0.004 &0.001& 0.002 &0.001 &0.042 &-0.017 &0.002 &0.001& 0.001 &\textit{mean bias} \\ 
+&(0.063 )&(0.058 )&(0.059 )&(0.064 )&(0.056 )&(0.046 )&(0.048 )&(0.047 )&(0.051 )&(0.042 )&\textit{std}\\ 
+& 0.055 & 0.046 &0.072 &0.063 &0.060 &0.164& 0.067& 0.056 &0.043 &0.051 &\textit{size} \\\midrule 
+&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$0.000, median bias$=$0.000, std$=$0.000 }&\multicolumn{5}{|c|}{$\hat{a}$ - mean bias$=$0.000, median bias$=$0.000 , std$=$0.000 }&\\ \hline 
+\end{tabular}} 
+\begin{tablenotes}\tiny 
+\item CF - control function. $(0)$ - none, $(1)$ - $a_i$,  $(2)$ - $\hat{h}(a_i)$, $(3)$ - $\hat{h}(\widehat{deg}_i,x_{2i})$, $(4)$ - $h(a_i)$. 
+  \end{tablenotes} 
+\end{threeparttable} 
+\end{table} 

@@ -1,0 +1,120 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 1252
+%%%%% packages ida
+%%% packages ida
+%% Completely prevent breaking of footnotes
+
+
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsfonts}
+\usepackage{chicago}
+\usepackage{amssymb}
+\usepackage[dvips]{graphicx}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{float}
+\usepackage{makeidx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{tocbibind}
+\usepackage{color}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{appendix}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[table]{xcolor}
+%\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage{algorithm2e}
+\makeatletter
+\renewcommand{\@algocf@capt@plain}{above}% formerly {bottom}
+\makeatother
+\setcounter{MaxMatrixCols}{10}
+\usepackage{pgffor} %\foreach loops
+
+%\usepackage{algorithm}% http://ctan.org/pkg/algorithm
+%\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+%T_iCIDAT_iA{OutputFilter=LAT_iEX.DLL}
+%T_iCIDAT_iA{Version=5.50.0.2960}
+%T_iCIDAT_iA{Codepage=1252}
+%T_iCIDAT_iA{<MET_iA NAME="SaveForMode" CONT_iENT_i="1" }
+%T_iCIDAT_iA{BibliographyScheme=BibT_ieX}
+%T_iCIDAT_iA{Created=Saturday, June 06, 2009 11:26:20}
+%T_iCIDAT_iA{LastRevised=Monday, August 13, 2018 05:44:38}
+%T_iCIDAT_iA{<MET_iA NAME="GraphicsSave" CONT_iENT_i="32" }
+%T_iCIDAT_iA{<MET_iA NAME="DocumentShell" CONT_iENT_i="Articles\SW\A Simple MIT_i Press Article" }
+%T_iCIDAT_iA{Language=American English}
+%T_iCIDAT_iA{CST_iFile=40 LaT_ieX article.cst}
+%T_iCIDAT_iA{<MET_iA NAME="PrintViewPercent" CONT_iENT_i="100" }
+
+\interfootnotelinepenalty=10000 
+\newtheorem{theorem}{Theorem}
+\newtheorem{assumption}{Assumption}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+%\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\  \rule{0.5em}{0.5em}}
+\usepackage{threeparttable}
+\definecolor{dred}{cmyk}{0 , 0.89, 0.94, 0.28}
+\definecolor{dblue}{rgb}{0,0.08,0.45}
+\hypersetup{
+     colorlinks=true,    
+linkcolor=dred,
+     citecolor=dblue,       
+    urlcolor=dblue
+}
+
+\usepackage{subcaption}
+\let \cite=\shortciteN
+\geometry{left=1 in,right=1in,top=1in,bottom=1 in}
+\definecolor{med-blue}{rgb}{0.59,0.74,1}
+\definecolor{light-red}{rgb}{1,0.4,0.51}
+\captionsetup[table]{skip=10pt}
+\onehalfspacing
+\begin{document}
+\title{Monte Carlo test}
+\author{Ida Johnsson}
+\date{\today}
+\maketitle
+\noindent
+\newgeometry{left = 1cm}
+\clearpage
+\input{MC_K_8_d2design2_cos_hermite_polynomial.tex}
+
+\input{MC_K_8_d1design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d2design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d3design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d4design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d5design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d6design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d7design2_cos_hermite_polynomial.tex}
+\input{MC_K_8_d8design2_cos_hermite_polynomial.tex}
+\end{document}

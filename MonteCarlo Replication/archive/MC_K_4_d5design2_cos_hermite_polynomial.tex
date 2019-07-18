@@ -1,0 +1,26 @@
+\begin{table}\caption{\footnotesize {\bf Design $5$}: Parameter values across 1000 Monte Carlo replications with $h(a)=\cos (3 a_i)$ and $K_N=4$} 
+\begin{threeparttable} 
+\centering \footnotesize
+\scalebox{.9}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline 
+\cellcolor{yellow}$N$&\multicolumn{6}{|c|}{\cellcolor{yellow}$100$}&\multicolumn{6}{|c|}{\cellcolor{yellow}$250$}&\\\hline 
+CF&$(0)$&$(1)$&$(2)$&$(3)$&$(4)$&$(5)$& $(0)$ &$(1)$&$(2)$&$(3)$&$(4)$&$(5)$&\\\hline 
+\multirow{4}{*}{$\beta_1=1$}& 0.008 & 0.014 &-0.005 &-0.005 &-0.001 &-0.001& 0.016 &0.027 &-0.002& -0.002 & -0.001& -0.000 & \textit{mean bias} \\ 
+&(0.055 )&(0.065 )&(0.092 )&(0.092 )&(0.131 )&(0.022 )&(0.092 )&(0.085 )&(0.086 )&(0.086 )&(0.122 )&(0.018 )&\textit{std}\\ 
+& 0.921 & 0.943 &0.076 &0.076 &0.057 &0.053& 0.980 &0.981 &0.063& 0.063 &0.053& 0.055 &\textit{size} \\ \midrule
+\multirow{4}{*}{$\beta_2=5$}& -0.017 & -0.004 &0.001 &0.001 &0.001 &0.000& -0.013 &-0.005 &-0.000& -0.000 &-0.000& -0.000 &\textit{mean bias} \\ 
+&(0.034 )&(0.032 )&(0.034 )&(0.034 )&(0.036 )&(0.029 )&(0.024 )&(0.021 )&(0.021 )&(0.021 )&(0.022 )&(0.020 )&\textit{std}\\ 
+& 0.096 & 0.068 &0.079 &0.079 &0.075 &0.048& 0.112 &0.081& 0.064 &0.064 & 0.069 &0.060 &\textit{size} \\\midrule 
+\multirow{4}{*}{$\beta_3=5$}& -0.185 & -0.023 &0.041& 0.041 &0.022 &0.008 &-0.279 &-0.124 &0.024& 0.024 &0.020& 0.005 &\textit{mean bias} \\ 
+&(0.521 )&(0.573 )&(0.837 )&(0.837 )&(0.971 )&(0.250 )&(0.868 )&(0.764 )&(0.828 )&(0.828 )&(0.935 )&(0.198 )&\textit{std}\\ 
+& 0.494 & 0.327 &0.074 &0.074 &0.067 &0.051& 0.898& 0.486 &0.069 &0.069 & 0.062 &0.059 &\textit{size} \\\midrule 
+&\multicolumn{6}{|c|}{$\hat{a}$ - mean bias$=$0.000, median bias$=$0.000, std$=$0.000 }&\multicolumn{6}{|c|}{$\hat{a}$ - mean bias$=$0.000, median bias$=$0.000 , std$=$0.000 }&\\ \hline 
+\end{tabular}} 
+\begin{tablenotes}\tiny 
+\item CF - control function. $(0)$ - none, $(1)$ - $\hat{a}_i$,  $(2)$ - $\hat{h}(\hat{a}_i)$, $(3)$ - $\hat{h}(\widehat{deg}_i,x_{2i})$, $(4)$ - $h(a_i)$. 
+\item Average number of links for $N=100$ is $24.1$, for $N=250$ it is $60.2$. 
+\item The bias of $\hat{a}_i$ is calculated as $a_i-\hat{a}_i$ 
+\item $K^*_{100,0.2}=3$, $K^*_{100,0.5}=5$, $K^*_{100,0.8}=4$ 
+\item $K^*_{250,0.2}=8$, $K^*_{250,0.5}=3$, $K^*_{250,0.8}=8$ 
+  \end{tablenotes} 
+\end{threeparttable} 
+\end{table} 
