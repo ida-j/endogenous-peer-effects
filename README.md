@@ -22,5 +22,5 @@ to replicate the results in the paper. This folder contains the following files
 - cross_validation_dense.m - code that performs cross-validation for the dense network formation designs using a Hermite polynomial sieve. Can easily be modified to use other sieve functions
 
 To run the files change the cd and path in accordance with your file structure. All .m files generate latex tables and save them in the cd. The tables can be included in a latex file using
-\\input\{path_to_table/table_name.tex\} etc.\
+\\input\{path_to_table/table_name.tex\} etc.
 
